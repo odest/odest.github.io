@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta property="og:title" content="iClock" />
+	<meta property="og:image:type" content="image/png" />
+	<meta property="og:image:width" content="1889" />
+	<meta property="og:image:height" content="883" />
+	<meta property="og:image:alt" content="A shiny image of iClock" />
+	<link rel="stylesheet" href="css/styles.css" />
+	<link rel="stylesheet" href="css/home.css" />
+	<link rel="icon" href="img/Logo.png" type="image/png" />
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<script src="npm/sweetalert2@11"></script>
+	<title>iClock for Windows</title>
+	<meta name="description" content="iClock is a beautiful, functional, customizable set of tools and widgets to spice up your Windows desktop. iClock runs on Rainmeter, so there's no limit for customization.">
+	<script defer src="js/module_list.js"></script>
+</head>
+
+<body>
+	<!-- ----------------------------- Normal nav ------------------------------ -->
+	<nav class="" id="navbar-container">
+		<a class="branding" href="index.html">
+			<img aria-hidden="true" alt="iClock Logo" src="img\Logo.png"></img>
+			<p>iClock</p>
+		</a>
+		<hr aria-hidden="true">
+		</hr>
+		<div aria-hidden="true" id="navbar-items">
+			<a href="#home" class="navbar-responsive-hide navbar-item">Home</a>
+			<a href="#features" class="navbar-responsive-hide navbar-item">Features</a>
+			<a href="https://www.gitbook.com/" class="navbar-responsive-hide navbar-item navbar-icon">
+				<img alt="iClock S-Hub Logo" class="navbar-responsive-hide" src="img/gitbook.png"></img>
+			</a>
+			<a href="https://github.com/odest" class="navbar-responsive-hide navbar-item navbar-icon">
+				<img alt="GitHub icon" class="navbar-responsive-hide" src="img/GitHub.png"></img>
+			</a>
+			<a href="https://gitlab.com/kodest" class="navbar-responsive-hide navbar-item navbar-icon">
+				<img alt="Discord icon" class="navbar-responsive-hide" src="img/gitlab.png"></img>
+			</a>
+			<div id="nav-dlbutton" class="navbar-item navbar-button not-active" onclick="downloadLatestCore()">
+				<span class="">Download</span>
+				<span class="material-symbols-outlined">download</span>
+			</div>
+			<span onclick="openNav()" id="navbar-burga" class="material-symbols-outlined navbar-item">menu</span>
+		</div>
+	</nav>
+	<!-- ----------------------------- Overlay nav ----------------------------- -->
+	<div aria-hidden="true" id="myNav" class="overlay">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class="overlay-content">
+			<a href="#home" onclick="closeNav()" class="navbar-item">Home</a>
+			<a href="#features" onclick="closeNav()" class="navbar-item">Features</a>
+			<a href="https://www.gitbook.com/" onclick="closeNav()" class="navbar-item">Gitbook</a>
+			<a href="https://github.com/odest" onclick="closeNav()" class="navbar-item">Github</a>
+			<a href="https://gitlab.com/kodest" onclick="closeNav()" class="navbar-item">Gitlab</a>
+		</div>
+	</div>
+	<!-- ------------------------------- Content ------------------------------- -->
+	<div aria-hidden="true" class="body-divider" id="home">
+		<hr>
+		</hr>
+	</div>
+	<div class="body-container" id="s1">
+		<div aria-hidden="true" class="main-video">
+			<video autoplay muted loop>
+				<source src="vid/video.mp4" type="video/mp4" />
+			</video>
+			<div class="e1"
+				style="background: linear-gradient(197.37deg, #7450DB -0.38%, rgba(138, 234, 240, 0) 101.89%), linear-gradient(115.93deg, #3E88F6 4.86%, rgba(62, 180, 246, 0.33) 38.05%, rgba(62, 235, 246, 0) 74.14%), radial-gradient(56.47% 76.87% at 6.92% 7.55%, rgba(62, 136, 246, 0.7) 0%, rgba(62, 158, 246, 0.182) 52.16%, rgba(62, 246, 246, 0) 100%), linear-gradient(306.53deg, #2EE4E3 19.83%, rgba(46, 228, 227, 0) 97.33%); background-blend-mode: normal, normal, normal, normal, normal, normal; filter: blur(75px);">
+			</div>
+		</div>
+		<div class="body-container-1-right">
+			<div class="header-content">
+				<h1>A widget that’s truly yours</h1>
+				<p>iClock is a beautiful, functional, customizable set of tools and widgets to spice up your desktop
+				</p>
+			</div>
+			<div class="main-array">
+				<div id="dlbutton" class="button button-main" onclick="downloadLatestCore()">
+					<span class="button-main-string">Download</span>
+					<span class="button-main-dlcount">v0.0.1</span>
+				</div>
+				<a class="button button-modules" href="#features">
+					<span class="button-modules-string">Features</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div aria-hidden="true" class="body-divider" id="s2-divider">
+		<hr>
+		</hr>
+	</div>
+	<div class="body-container" id="s2">
+		<div aria-hidden="true" class="background-image">
+			<img alt="iClock's settings menu as a background" src="img\Section2.png"></img>
+		</div>
+		<div class="about-core">
+			<h2>Complimentary, customizable,</h2>
+			<h1>Works how you want it to</h1>
+			<div class="about-card-grid">
+				<div class="about-card" style="--order: 0;">
+					<span class="material-symbols-outlined">Visibility</span>
+					<h3>Beautiful</h3>
+					<p>A multitude of pre-made styles, matching different UI designs. Seamlessly integrate modules into
+						your setup.</p>
+				</div>
+				<div class="about-card" style="--order: 1;">
+					<span class="material-symbols-outlined">Settings_Suggest</span>
+					<h3>Settings</h3>
+					<p>Every module has a dedicated settings menu with plentiful of options to play with. No more
+						editing files.</p>
+				</div>
+				<div class="about-card" style="--order: 2;">
+					<span class="material-symbols-outlined">Download_For_Offline</span>
+					<h3>Installer</h3>
+					<p>Built-in installer, updater and uninstaller for every module, no need to go to a website to get
+						the latest version of something.</p>
+				</div>
+				<div class="about-card" style="--order: 3;">
+					<span class="material-symbols-outlined">Edit</span>
+					<h3>Flexible</h3>
+					<p>Since iClock runs on Rainmeter, you can customize every aspect to your liking. Sky's the limit.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div aria-hidden="true" class="body-divider" id="features">
+		<hr>
+		</hr>
+	</div>
+	<div class="body-container" id="s3">
+		<div class="about-modules">
+			<div class="about-modules-title">
+				<h2>Get to know what you’ll use</h2>
+				<h1>Modules & widgets</h1>
+			</div>
+			<div id="modules-interactive">
+				<div aria-hidden="true" id="modules-interactive-top">
+					<div class="module-array" id="array-1">
+					</div>
+					<div class="module-array" id="array-2">
+					</div>
+				</div>
+				<div id="modules-interactive-info">
+					<div>
+						<img alt="Current selected module splash image" id="about-module-info-img"></img>
+					</div>
+					<div>
+						<h3 id="about-module-info-header"></h3>
+						<p id="about-module-info-description"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div aria-hidden="true" class="background-modules">
+			<img alt="A gallery of iClock module as a background" src="/img/Section3.png"></img>
+		</div>
+	</div>
+	<div aria-hidden="true" class="body-divider">
+		<hr>
+		</hr>
+	</div>
+	<div aria-hidden="true" class="body-container" id="footer-body">
+		<div id="footer-top">
+			<div id="footer-top-left">
+				<a class="core-branding" href="#home">
+					<img aria-hidden="true" alt="iClock Logo" src="img\Logo.png"></img>
+					<p>iClock from DEST</p>
+				</a>
+			</div>
+			<div id="footer-top-center">
+				<ul>
+					<li>Useful links</li>
+					<li>
+						<a href="https://www.gitbook.com/">Privacy Policy</a>
+					</li>
+					<li>
+						<a href="https://www.gitbook.com/">FAQs</a>
+					</li>
+					<li>
+						<a href="#home">iClock</a>
+					</li>
+					<li>
+						<a href="https://www.github.com/odest">Scripts repository</a>
+					</li>
+				</ul>
+				<ul>
+					<li>Get involved</li>
+					<li>
+						<a href="https://www.github.com/odest">Report a bug</a>
+					</li>
+					<li>
+						<a href="https://www.github.com/odest">Suggest a feature</a>
+					</li>
+					<li>
+						<a href="https://www.github.com/odest">Roadmap</a>
+					</li>
+				</ul>
+			</div>
+			<div id="footer-top-right">
+				<a href="https://www.gitbook.com/">
+					<img src="img/gitbook.png" alt="Gitbook Button" width="24" height="24">
+				</a>
+				<a href="https://www.github.com/odest">
+					<img src="img/GitHub.png" alt="github Button" width="24" height="24">
+				</a>
+				<a href="https://gitlab.com/kodest">
+					<img src="img/gitlab.png" alt="Gitlab Button" width="24" height="24">
+				</a>
+
+			</div>
+		</div>
+		<div id="footer-bottom">
+			<p>Copyright © 2023 DEST</p>
+			<p>All Rights Reserved</p>
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
