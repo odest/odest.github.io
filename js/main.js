@@ -25,7 +25,7 @@ function PopUp() {
 
 function downloadLatestCore() {
 	let dnld = () =>
-		window.location.href = "https://github.com/odest/odest.github.io/docs/readme.txt"
+		window.location.href = "https://github.com/odest/odest.github.io/blob/master/docs/readme.txt"
 	if (navigator.userAgent.indexOf('Win') != -1) {
 		dnld()
 		PopUp()
