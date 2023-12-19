@@ -25,7 +25,7 @@ function PopUp() {
 
 function downloadLatestCore() {
 	let dnld = () =>
-		window.location.href = "https://github.com/odest/odest.github.io/blob/master/docs/readme.txt"
+		window.location.href = "https://github.com/odest/odest.github.io/blob/master/docs/iClock-v0.0.1-PreAlpha-setup.exe"
 	if (navigator.userAgent.indexOf('Win') != -1) {
 		dnld()
 		PopUp()
