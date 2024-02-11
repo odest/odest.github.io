@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Dest - Personal Website</title>
+  <meta name="title" content="Dest - Personal Website">
+  <meta name="description" content="This is a personal website made by dest">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/logo.gif">
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/pattern/pattern-2.svg">
+  <link rel="preload" as="image" href="./assets/images/pattern/pattern-3.svg">
+  <link rel="preload" as="image" href="./assets/images/project/iClock.mp4">
+  <link rel="preload" as="image" href="./assets/images/project/reverseLane.mp4">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.gif" width="37" height="37" alt="Dest logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.gif" width="37" height="37" alt="Dest logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link hover-1" data-nav-toggler>Home</a>
+          </li>
+
+          <li>
+            <a href="#topics" class="navbar-link hover-1" data-nav-toggler>Topics</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="navbar-link hover-1" data-nav-toggler>Projects</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="navbar-bottom">
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="https://github.com/odest" target="_blank" class="navbar-link hover-1 invert">
+                <img src="assets/images/logo/github.svg" alt="Github Button" width="32" height="32">
+                <span>Github</span>
+              </a>
+            </li>
+  
+            <li>
+              <a href="https://gitlab.com/kodest" target="_blank" class="navbar-link hover-1">
+                <img src="assets/images/logo/gitlab.svg" alt="Gitlab Button" width="32" height="32">
+                <span>Gitlab</span>
+              </a>
+            </li>
+  
+            <li>
+              <a href="https://www.gitbook.com/" target="_blank" class="navbar-link hover-1">
+                <img src="assets/images/logo/gitbook.svg" alt="Gitbook Button" width="32" height="32">
+                <span>Gitbook</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/" target="_blank" class="navbar-link hover-1">
+                <img src="assets/images/logo/linkedin.svg" alt="LinkedIn Button" width="32" height="32">
+                <span>LinkedIn</span>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </nav>
+
+      <a href="#" class="btn btn-primary">Subscribe</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Hello World!</p>
+
+            <h1 class="headline headline-1 section-title">
+              I’m <span class="span">Dest</span>
+            </h1>
+
+            <p class="hero-text">
+              Here I share my passion for coding and technology. I invite you to this exciting journey with me.
+            </p>
+
+            <div class="input-wrapper">
+
+              <input type="search" name="search" placeholder="Search latest projects" required
+                class="input-field" autocomplete="off">
+
+              <button class="btn btn-primary">
+                <span class="span">Search</span>
+
+                <ion-icon name="search-outline"></ion-icon>
+              </button>
+
+            </div>
+
+          </div>
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/hero-banner.png" width="327" height="490" alt="Dest Clark" class="w-100">
+
+            <img src="./assets/images/pattern/pattern-2.svg" width="27" height="26" alt="shape" class="shape shape-1">
+
+            <img src="./assets/images/pattern/pattern-3.svg" width="27" height="26" alt="shape" class="shape shape-2">
+
+          </div>
+
+          <img src="./assets/images/shadow/shadow-1.svg" width="500" height="800" alt="" class="hero-bg hero-bg-1">
+
+          <img src="./assets/images/shadow/shadow-2.svg" width="500" height="500" alt="" class="hero-bg hero-bg-2">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TOPICS
+      -->
+
+      <section class="topics" id="topics" aria-labelledby="topic-label">
+        <div class="container">
+
+          <div class="card topic-card">
+
+            <div class="card-content">
+
+              <h2 class="headline headline-2 section-title card-title" id="topic-label">
+                Hot topics
+              </h2>
+
+              <p class="card-text">
+                Don't miss out on the latest news about Development tips, Project review, Software guide...
+              </p>
+
+              <div class="btn-group">
+                <button class="btn-icon" aria-label="previous" data-slider-prev>
+                  <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+                </button>
+
+                <button class="btn-icon" aria-label="next" data-slider-next>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+
+            </div>
+
+            <div class="slider" data-slider>
+              <ul class="slider-list" data-slider-container>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic/1.jpg" width="507" height="618" loading="lazy" alt="Sport"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Programming</span>
+
+                      <p class="slider-subtitle">38 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic/2.jpg" width="507" height="618" loading="lazy" alt="Travel"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Hardware</span>
+
+                      <p class="slider-subtitle">63 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic/3.jpg" width="507" height="618" loading="lazy" alt="Design"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Technology</span>
+
+                      <p class="slider-subtitle">78 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic/4.jpg" width="507" height="618" loading="lazy" alt="Movie"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Photography</span>
+
+                      <p class="slider-subtitle">125 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic/5.jpg" width="507" height="618" loading="lazy" alt="Lifestyle"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Design</span>
+
+                      <p class="slider-subtitle">78 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURED POST
+      -->
+
+      <section class="section feature" aria-label="feature" id="projects">
+        <div class="container">
+
+          <h2 class="headline headline-2 section-title">
+            <span class="span">Editor's picked</span>
+          </h2>
+
+          <p class="section-text">
+            Featured and highly rated projects
+          </p>
+
+          <ul class="feature-list">
+
+            <li>
+              <div class="card feature-card">
+
+                <div aria-hidden="true" class="main-video">
+                  <video autoplay muted loop>
+                    <source src="./assets/images/project/iClock.mp4" type="video/mp4" />
+                  </video>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a class="span hover-2">#Widget</a>
+
+                      <a class="span hover-2">#Python</a>
+                    </div>
+
+                    <div class="wrapper">
+
+                      <div class="tooltip">
+                        <span class="tooltiptext">3</span>
+                        <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <div class="tooltip">
+                        <span class="tooltiptext">0</span>
+                        <ion-icon name="git-network-outline"></ion-icon>
+                      </div>
+
+                      <div class="tooltip">
+                        <span class="tooltiptext">v0.0.1</span>
+                        <ion-icon name="pricetag-outline" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <div class="tooltip">
+                        <span class="tooltiptext">Master</span>
+                        <ion-icon name="git-branch-outline"></ion-icon>
+                      </div>
+
+                      <div class="tooltip">
+                        <span class="tooltiptext">1</span>
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+
+                      <div class="tooltip">
+                        <span class="tooltiptext">Python</span>
+                        <ion-icon name="logo-python" title="Python"></ion-icon>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="https://github.com/odest/iClock" target="_blank" class="card-title hover-2">
+                      iClock: Fully Customizable Clock Widget
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author.png" width="48" height="48" loading="lazy" alt="Dest"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Dest</p>
+
+                        <p class="card-subtitle">30 Jan 2024</p>
+                      </div>
+                    </div>
+
+                    <a class="button" href="https://github.com/odest/iClock" target="_blank">
+                      <svg class="svgIcon" viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm50.7-186.9L162.4 380.6c-19.4 7.5-38.5-11.6-31-31l55.5-144.3c3.3-8.5 9.9-15.1 18.4-18.4l144.3-55.5c19.4-7.5 38.5 11.6 31 31L325.1 306.7c-3.2 8.5-9.9 15.1-18.4 18.4zM288 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"></path></svg>
+                      Explore
+                    </a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <div aria-hidden="true" class="main-video">
+                  <video autoplay muted loop>
+                    <source src="./assets/images/project/reverseLane.mp4" type="video/mp4" />
+                  </video>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a class="span hover-2">#Game</a>
+
+                      <a class="span hover-2">#Pygame</a>
+                    </div>
+
+                    <div class="wrapper">
+
+                      <div class="tooltip">
+                        <span class="tooltiptext">1</span>
+                        <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <div class="tooltip">
+                        <span class="tooltiptext">0</span>
+                        <ion-icon name="git-network-outline"></ion-icon>
+                      </div>
+
+                      <div class="tooltip">
+                        <span class="tooltiptext">v1.0.0</span>
+                        <ion-icon name="pricetag-outline" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <div class="tooltip">
+                        <span class="tooltiptext">Main</span>
+                        <ion-icon name="git-branch-outline"></ion-icon>
+                      </div>
+
+                      <div class="tooltip">
+                        <span class="tooltiptext">2</span>
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+
+                      <div class="tooltip">
+                        <span class="tooltiptext">Python</span>
+                        <ion-icon name="logo-python" title="Python"></ion-icon>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="https://github.com/odest/Reverse-Lane" target="_blank" class="card-title hover-2">
+                      Reverse Lane: A Car Game with Pygame
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author.png" width="48" height="48" loading="lazy" alt="Dest"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Dest</p>
+
+                        <p class="card-subtitle">17 Nov 2022</p>
+                      </div>
+                    </div>
+
+                    <a class="button" href="https://github.com/odest/Reverse-Lane" target="_blank">
+                      <svg class="svgIcon" viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm50.7-186.9L162.4 380.6c-19.4 7.5-38.5-11.6-31-31l55.5-144.3c3.3-8.5 9.9-15.1 18.4-18.4l144.3-55.5c19.4-7.5 38.5 11.6 31 31L325.1 306.7c-3.2 8.5-9.9 15.1-18.4 18.4zM288 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"></path></svg>
+                      Explore
+                    </a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-secondary">
+            <span class="span">Show More Posts</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+
+        <img src="./assets/images/shadow/shadow-3.svg" width="500" height="1500" loading="lazy" alt="" class="feature-bg">
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #POPULAR TAGS
+      -->
+
+      <section class="tags" aria-labelledby="tag-label">
+        <div class="container">
+
+          <h2 class="headline headline-2 section-title" id="tag-label">
+            <span class="span">Popular Tags</span>
+          </h2>
+
+          <p class="section-text">
+            Most searched keywords
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/logo/git.svg" width="32" height="32" loading="lazy" alt="Git">
+
+                <p class="btn-text">Git</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn invert">
+                <img src="./assets/images/logo/github.svg" width="32" height="32" loading="lazy" alt="Github">
+
+                <p class="btn-text">Github</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/logo/gitlab.svg" width="32" height="32" loading="lazy" alt="Gitlab">
+
+                <p class="btn-text">Gitlab</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/logo/linux.svg" width="32" height="32" loading="lazy" alt="Linux">
+
+                <p class="btn-text">Linux</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/logo/windows.svg" width="32" height="32" loading="lazy" alt="Windows">
+
+                <p class="btn-text">Windows</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/logo/ubuntu.svg" width="32" height="32" loading="lazy" alt="Ubuntu">
+
+                <p class="btn-text">Ubuntu</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/logo/python.svg" width="32" height="32" loading="lazy" alt="Python">
+
+                <p class="btn-text">Python</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/logo/vscode.svg" width="32" height="32" loading="lazy" alt="VsCode">
+
+                <p class="btn-text">VsCode</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/logo/blender.svg" width="32" height="32" loading="lazy" alt="Blender">
+
+                <p class="btn-text">Blender</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/logo/tensorflow.svg" width="32" height="32" loading="lazy" alt="Tensorflow">
+
+                <p class="btn-text">Tensorflow</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/logo/docker.svg" width="32" height="32" loading="lazy" alt="Docker">
+
+                <p class="btn-text">Docker</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/logo/brave.svg" width="32" height="32" loading="lazy" alt="Brave">
+
+                <p class="btn-text">Brave</p>
+              </button>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </section>
+
+
+
+
+      <!-- 
+        - #EMPTY
+      -->
+
+      <section class="section empty">
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer>
+    <div class="container">
+
+      <div class="card footer" id="contact">
+
+        <div class="section footer-top">
+
+          <div class="footer-brand">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/logo.gif" width="37" height="37" loading="lazy" alt="Dest logo">
+            </a>
+
+            <p class="footer-text">
+              Welcome to My World!
+              <br>
+              <br>
+              Dive into Coding
+              <br>
+              <br>
+              Explore the World of Technology
+              <br>
+              <br>
+              Share Your Experiences
+              <br>
+              <br>
+              Get to Know <Menu></Menu>
+            </p>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Categories</p>
+
+            <ul>
+
+              <li>
+                <a class="footer-link hover-2">Git</a>
+              </li>
+
+              <li>
+                <a class="footer-link hover-2">Github</a>
+              </li>
+
+              <li>
+                <a class="footer-link hover-2">Gitlab</a>
+              </li>
+
+              <li>
+                <a class="footer-link hover-2">Linux</a>
+              </li>
+
+              <li>
+                <a class="footer-link hover-2">Windows</a>
+              </li>
+
+              <li>
+                <a class="footer-link hover-2">Ubuntu</a>
+              </li>
+
+              <li>
+                <a class="footer-link hover-2">Python</a>
+              </li>
+
+              <li>
+                <a class="footer-link hover-2">VsCode</a>
+              </li>
+
+              <li>
+                <a class="footer-link hover-2">Blender</a>
+              </li>
+
+              <li>
+                <a class="footer-link hover-2">Tensorflow</a>
+              </li>
+
+              <li>
+                <a class="footer-link hover-2">Docker</a>
+              </li>
+
+              <li>
+                <a class="footer-link hover-2">Brave</a>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Newsletter</p>
+
+            <p class="footer-text">
+              Sign up to be first to receive the latest stories inspiring us, case studies, and industry news.
+            </p>
+
+            <div class="input-wrapper">
+              <input type="text" name="name" placeholder="Your name" required class="input-field" autocomplete="off">
+
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div class="input-wrapper">
+              <input type="email" name="email_address" placeholder="Emaill address" required class="input-field"
+                autocomplete="off">
+
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <a href="#" class="btn btn-primary">
+              <span class="span">Subscribe</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+          <p class="copyright">
+            Copyright &copy; 2024 | Developed by <a href="#" class="copyright-link">DEST</a> | All Rights Reserved
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://github.com/odest" target="_blank" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+
+                <span class="span">Github</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://gitlab.com/kodest" target="_blank" class="social-link">
+                <ion-icon name="logo-gitlab"></ion-icon>
+
+                <span class="span">Gitlab</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/" target="_blank" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+
+                <span class="span">LinkedIn</span>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

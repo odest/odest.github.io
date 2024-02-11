@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="r2w.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.1559539"
+     inkscape:cx="116.35412"
+     inkscape:cy="269.47441"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Katman 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:329.839px;font-family:ANDMOREY;-inkscape-font-specification:ANDMOREY;fill:#ffffff;fill-opacity:1;stroke-width:9.6758;paint-order:stroke markers fill"
+       x="3.8946168"
+       y="240.16052"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         x="3.8946168"
+         y="240.16052"
+         style="stroke-width:9.6758;fill:#ffffff;fill-opacity:1">D</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:329.839px;font-family:ANDMOREY;-inkscape-font-specification:ANDMOREY;fill:#ffffff;fill-opacity:1;stroke-width:9.67582;paint-order:stroke markers fill"
+       x="253.89458"
+       y="240.16106"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         x="253.89458"
+         y="240.16106"
+         style="stroke-width:9.67582;fill:#ffffff;fill-opacity:1">E</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:329.839px;font-family:ANDMOREY;-inkscape-font-specification:ANDMOREY;fill:#ffffff;fill-opacity:1;stroke-width:9.6758;paint-order:stroke markers fill"
+       x="3.8945808"
+       y="490.16107"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         x="3.8945808"
+         y="490.16107"
+         style="stroke-width:9.6758;fill:#ffffff;fill-opacity:1">S</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:10.771;paint-order:stroke markers fill"
+       id="rect1"
+       width="64"
+       height="219.08315"
+       x="270.33951"
+       y="270.98834" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:9.58534;paint-order:stroke markers fill"
+       id="rect2"
+       width="219.73212"
+       height="64"
+       x="270.33951"
+       y="270.55579" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:9.03889;paint-order:stroke markers fill"
+       id="rect3"
+       width="84.006126"
+       height="188.0208"
+       x="-59.609352"
+       y="462.11734"
+       transform="matrix(0.70513361,-0.70907446,0.72597271,0.68772351,0,0)" />
+  </g>
+</svg>
