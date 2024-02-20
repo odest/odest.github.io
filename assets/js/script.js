@@ -1,6 +1,17 @@
 'use strict';
 
 
+const resim = document.getElementById("hero");
+
+resim.addEventListener("mouseover", function() {
+  this.src = "./assets/images/hero-banner.gif";
+});
+
+resim.addEventListener("mouseout", function() {
+  this.src = "./assets/images/hero-banner.png";
+});
+
+
 
 /**
  * Add event listener on multiple elements
